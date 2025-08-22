@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AD04A6232E58E2FB009A4778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD04A60A2E58E2FA009A4778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD04A6112E58E2FA009A4778;
+			remoteInfo = KullaniciProfilKarti;
+		};
+		AD04A62D2E58E2FB009A4778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD04A60A2E58E2FA009A4778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD04A6112E58E2FA009A4778;
+			remoteInfo = KullaniciProfilKarti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD04A6122E58E2FA009A4778 /* KullaniciProfilKarti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KullaniciProfilKarti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD04A6222E58E2FB009A4778 /* KullaniciProfilKartiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KullaniciProfilKartiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD04A62C2E58E2FB009A4778 /* KullaniciProfilKartiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KullaniciProfilKartiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AD04A6142E58E2FA009A4778 /* KullaniciProfilKarti */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KullaniciProfilKarti;
+			sourceTree = "<group>";
+		};
+		AD04A6252E58E2FB009A4778 /* KullaniciProfilKartiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KullaniciProfilKartiTests;
+			sourceTree = "<group>";
+		};
+		AD04A62F2E58E2FB009A4778 /* KullaniciProfilKartiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KullaniciProfilKartiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD04A60F2E58E2FA009A4778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04A61F2E58E2FB009A4778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04A6292E58E2FB009A4778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD04A6092E58E2FA009A4778 = {
+			isa = PBXGroup;
+			children = (
+				AD04A6142E58E2FA009A4778 /* KullaniciProfilKarti */,
+				AD04A6252E58E2FB009A4778 /* KullaniciProfilKartiTests */,
+				AD04A62F2E58E2FB009A4778 /* KullaniciProfilKartiUITests */,
+				AD04A6132E58E2FA009A4778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD04A6132E58E2FA009A4778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD04A6122E58E2FA009A4778 /* KullaniciProfilKarti.app */,
+				AD04A6222E58E2FB009A4778 /* KullaniciProfilKartiTests.xctest */,
+				AD04A62C2E58E2FB009A4778 /* KullaniciProfilKartiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD04A6112E58E2FA009A4778 /* KullaniciProfilKarti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD04A6362E58E2FB009A4778 /* Build configuration list for PBXNativeTarget "KullaniciProfilKarti" */;
+			buildPhases = (
+				AD04A60E2E58E2FA009A4778 /* Sources */,
+				AD04A60F2E58E2FA009A4778 /* Frameworks */,
+				AD04A6102E58E2FA009A4778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AD04A6142E58E2FA009A4778 /* KullaniciProfilKarti */,
+			);
+			name = KullaniciProfilKarti;
+			packageProductDependencies = (
+			);
+			productName = KullaniciProfilKarti;
+			productReference = AD04A6122E58E2FA009A4778 /* KullaniciProfilKarti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD04A6212E58E2FB009A4778 /* KullaniciProfilKartiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD04A6392E58E2FB009A4778 /* Build configuration list for PBXNativeTarget "KullaniciProfilKartiTests" */;
+			buildPhases = (
+				AD04A61E2E58E2FB009A4778 /* Sources */,
+				AD04A61F2E58E2FB009A4778 /* Frameworks */,
+				AD04A6202E58E2FB009A4778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD04A6242E58E2FB009A4778 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD04A6252E58E2FB009A4778 /* KullaniciProfilKartiTests */,
+			);
+			name = KullaniciProfilKartiTests;
+			packageProductDependencies = (
+			);
+			productName = KullaniciProfilKartiTests;
+			productReference = AD04A6222E58E2FB009A4778 /* KullaniciProfilKartiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD04A62B2E58E2FB009A4778 /* KullaniciProfilKartiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD04A63C2E58E2FB009A4778 /* Build configuration list for PBXNativeTarget "KullaniciProfilKartiUITests" */;
+			buildPhases = (
+				AD04A6282E58E2FB009A4778 /* Sources */,
+				AD04A6292E58E2FB009A4778 /* Frameworks */,
+				AD04A62A2E58E2FB009A4778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD04A62E2E58E2FB009A4778 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD04A62F2E58E2FB009A4778 /* KullaniciProfilKartiUITests */,
+			);
+			name = KullaniciProfilKartiUITests;
+			packageProductDependencies = (
+			);
+			productName = KullaniciProfilKartiUITests;
+			productReference = AD04A62C2E58E2FB009A4778 /* KullaniciProfilKartiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD04A60A2E58E2FA009A4778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AD04A6112E58E2FA009A4778 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AD04A6212E58E2FB009A4778 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AD04A6112E58E2FA009A4778;
+					};
+					AD04A62B2E58E2FB009A4778 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AD04A6112E58E2FA009A4778;
+					};
+				};
+			};
+			buildConfigurationList = AD04A60D2E58E2FA009A4778 /* Build configuration list for PBXProject "KullaniciProfilKarti" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD04A6092E58E2FA009A4778;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD04A6132E58E2FA009A4778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD04A6112E58E2FA009A4778 /* KullaniciProfilKarti */,
+				AD04A6212E58E2FB009A4778 /* KullaniciProfilKartiTests */,
+				AD04A62B2E58E2FB009A4778 /* KullaniciProfilKartiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD04A6102E58E2FA009A4778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04A6202E58E2FB009A4778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04A62A2E58E2FB009A4778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD04A60E2E58E2FA009A4778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04A61E2E58E2FB009A4778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04A6282E58E2FB009A4778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD04A6242E58E2FB009A4778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD04A6112E58E2FA009A4778 /* KullaniciProfilKarti */;
+			targetProxy = AD04A6232E58E2FB009A4778 /* PBXContainerItemProxy */;
+		};
+		AD04A62E2E58E2FB009A4778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD04A6112E58E2FA009A4778 /* KullaniciProfilKarti */;
+			targetProxy = AD04A62D2E58E2FB009A4778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD04A6342E58E2FB009A4778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD04A6352E58E2FB009A4778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD04A6372E58E2FB009A4778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KullaniciProfilKarti/Preview Content\"";
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.KullaniciProfilKarti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD04A6382E58E2FB009A4778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KullaniciProfilKarti/Preview Content\"";
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.KullaniciProfilKarti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD04A63A2E58E2FB009A4778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.KullaniciProfilKartiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KullaniciProfilKarti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KullaniciProfilKarti";
+			};
+			name = Debug;
+		};
+		AD04A63B2E58E2FB009A4778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.KullaniciProfilKartiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KullaniciProfilKarti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KullaniciProfilKarti";
+			};
+			name = Release;
+		};
+		AD04A63D2E58E2FB009A4778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.KullaniciProfilKartiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KullaniciProfilKarti;
+			};
+			name = Debug;
+		};
+		AD04A63E2E58E2FB009A4778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.KullaniciProfilKartiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KullaniciProfilKarti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD04A60D2E58E2FA009A4778 /* Build configuration list for PBXProject "KullaniciProfilKarti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD04A6342E58E2FB009A4778 /* Debug */,
+				AD04A6352E58E2FB009A4778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD04A6362E58E2FB009A4778 /* Build configuration list for PBXNativeTarget "KullaniciProfilKarti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD04A6372E58E2FB009A4778 /* Debug */,
+				AD04A6382E58E2FB009A4778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD04A6392E58E2FB009A4778 /* Build configuration list for PBXNativeTarget "KullaniciProfilKartiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD04A63A2E58E2FB009A4778 /* Debug */,
+				AD04A63B2E58E2FB009A4778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD04A63C2E58E2FB009A4778 /* Build configuration list for PBXNativeTarget "KullaniciProfilKartiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD04A63D2E58E2FB009A4778 /* Debug */,
+				AD04A63E2E58E2FB009A4778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD04A60A2E58E2FA009A4778 /* Project object */;
+}
