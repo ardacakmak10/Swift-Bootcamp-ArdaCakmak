@@ -6,9 +6,7 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 0) {
-                // Header: Geliştirilmiş Gradient Arka Plan
                 ZStack {
-                    // Çok katmanlı gradient efekti
                     LinearGradient(
                         gradient: Gradient(colors: [
                             Color.purple.opacity(0.8),
@@ -21,7 +19,6 @@ struct ContentView: View {
                     )
                     .frame(height: 200)
                     .overlay(
-                        // Işık efekti için ikinci gradient
                         LinearGradient(
                             gradient: Gradient(colors: [
                                 Color.white.opacity(0.3),
@@ -33,7 +30,6 @@ struct ContentView: View {
                         )
                     )
                     
-                    // Dekoratif circles
                     GeometryReader { geometry in
                         Circle()
                             .fill(Color.white.opacity(0.1))
@@ -69,8 +65,7 @@ struct ContentView: View {
                 )
                 .shadow(color: Color.purple.opacity(0.3), radius: 15, y: 5)
                 
-                // Profil resmi - header'ın dışına taşan - Assets'ten fotoğraf kullanımı
-                Image("profil") // Assets'e eklenen fotoğraf
+                Image("profil")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 110, height: 110)
@@ -95,7 +90,6 @@ struct ContentView: View {
                     .offset(y: -55)
                 
                 VStack(spacing: 25) {
-                    // Profil bilgileri
                     VStack(spacing: 8) {
                         Text("iOS Developer")
                             .font(.title3)
@@ -119,7 +113,6 @@ struct ContentView: View {
                     }
                     .offset(y: -30)
                     
-                    // Geliştirilmiş Bilgi Kartları
                     HStack(spacing: 20) {
                         EnhancedInfoCard(
                             icon: "person.2.fill",
@@ -143,7 +136,6 @@ struct ContentView: View {
                     .padding(.horizontal)
                     .offset(y: -20)
                     
-                    // Hakkımda Bölümü - Geliştirilmiş
                     VStack(alignment: .leading, spacing: 15) {
                         HStack {
                             Image(systemName: "info.circle.fill")
@@ -161,7 +153,6 @@ struct ContentView: View {
                             .lineSpacing(4)
                             .multilineTextAlignment(.leading)
                         
-                        // Beceriler tags
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(spacing: 10) {
                                 SkillTag(text: "Swift", color: .orange)
@@ -182,11 +173,8 @@ struct ContentView: View {
                     )
                     .padding(.horizontal)
                     
-                    // Geliştirilmiş Butonlar
                     HStack(spacing: 15) {
-                        // Mesaj Gönder Butonu
                         Button(action: {
-                            // Mesaj gönderme işlemi
                         }) {
                             HStack {
                                 Image(systemName: "message.fill")
@@ -209,7 +197,6 @@ struct ContentView: View {
                         .scaleEffect(1.0)
                         .animation(.spring(response: 0.3), value: isFollowing)
                         
-                        // Takip Et Butonu
                         Button(action: {
                             withAnimation(.spring(response: 0.3)) {
                                 isFollowing.toggle()
@@ -246,7 +233,6 @@ struct ContentView: View {
     }
 }
 
-// Geliştirilmiş Bilgi Kartı
 struct EnhancedInfoCard: View {
     var icon: String
     var title: String
@@ -283,7 +269,6 @@ struct EnhancedInfoCard: View {
     }
 }
 
-// Beceri etiketi
 struct SkillTag: View {
     var text: String
     var color: Color
