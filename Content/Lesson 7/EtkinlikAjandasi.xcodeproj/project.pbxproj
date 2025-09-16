@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AD80B3FE2E79BC5300F844FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD80B3E52E79BC5200F844FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD80B3EC2E79BC5200F844FB;
+			remoteInfo = EtkinlikAjandasi;
+		};
+		AD80B4082E79BC5300F844FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD80B3E52E79BC5200F844FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD80B3EC2E79BC5200F844FB;
+			remoteInfo = EtkinlikAjandasi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD80B3ED2E79BC5200F844FB /* EtkinlikAjandasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtkinlikAjandasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD80B3FD2E79BC5300F844FB /* EtkinlikAjandasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtkinlikAjandasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD80B4072E79BC5300F844FB /* EtkinlikAjandasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtkinlikAjandasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AD80B3EF2E79BC5200F844FB /* EtkinlikAjandasi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EtkinlikAjandasi;
+			sourceTree = "<group>";
+		};
+		AD80B4002E79BC5300F844FB /* EtkinlikAjandasiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EtkinlikAjandasiTests;
+			sourceTree = "<group>";
+		};
+		AD80B40A2E79BC5300F844FB /* EtkinlikAjandasiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EtkinlikAjandasiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD80B3EA2E79BC5200F844FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80B3FA2E79BC5300F844FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80B4042E79BC5300F844FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD80B3E42E79BC5200F844FB = {
+			isa = PBXGroup;
+			children = (
+				AD80B3EF2E79BC5200F844FB /* EtkinlikAjandasi */,
+				AD80B4002E79BC5300F844FB /* EtkinlikAjandasiTests */,
+				AD80B40A2E79BC5300F844FB /* EtkinlikAjandasiUITests */,
+				AD80B3EE2E79BC5200F844FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD80B3EE2E79BC5200F844FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD80B3ED2E79BC5200F844FB /* EtkinlikAjandasi.app */,
+				AD80B3FD2E79BC5300F844FB /* EtkinlikAjandasiTests.xctest */,
+				AD80B4072E79BC5300F844FB /* EtkinlikAjandasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD80B3EC2E79BC5200F844FB /* EtkinlikAjandasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD80B4112E79BC5300F844FB /* Build configuration list for PBXNativeTarget "EtkinlikAjandasi" */;
+			buildPhases = (
+				AD80B3E92E79BC5200F844FB /* Sources */,
+				AD80B3EA2E79BC5200F844FB /* Frameworks */,
+				AD80B3EB2E79BC5200F844FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AD80B3EF2E79BC5200F844FB /* EtkinlikAjandasi */,
+			);
+			name = EtkinlikAjandasi;
+			packageProductDependencies = (
+			);
+			productName = EtkinlikAjandasi;
+			productReference = AD80B3ED2E79BC5200F844FB /* EtkinlikAjandasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD80B3FC2E79BC5300F844FB /* EtkinlikAjandasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD80B4142E79BC5300F844FB /* Build configuration list for PBXNativeTarget "EtkinlikAjandasiTests" */;
+			buildPhases = (
+				AD80B3F92E79BC5300F844FB /* Sources */,
+				AD80B3FA2E79BC5300F844FB /* Frameworks */,
+				AD80B3FB2E79BC5300F844FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD80B3FF2E79BC5300F844FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD80B4002E79BC5300F844FB /* EtkinlikAjandasiTests */,
+			);
+			name = EtkinlikAjandasiTests;
+			packageProductDependencies = (
+			);
+			productName = EtkinlikAjandasiTests;
+			productReference = AD80B3FD2E79BC5300F844FB /* EtkinlikAjandasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD80B4062E79BC5300F844FB /* EtkinlikAjandasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD80B4172E79BC5300F844FB /* Build configuration list for PBXNativeTarget "EtkinlikAjandasiUITests" */;
+			buildPhases = (
+				AD80B4032E79BC5300F844FB /* Sources */,
+				AD80B4042E79BC5300F844FB /* Frameworks */,
+				AD80B4052E79BC5300F844FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD80B4092E79BC5300F844FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD80B40A2E79BC5300F844FB /* EtkinlikAjandasiUITests */,
+			);
+			name = EtkinlikAjandasiUITests;
+			packageProductDependencies = (
+			);
+			productName = EtkinlikAjandasiUITests;
+			productReference = AD80B4072E79BC5300F844FB /* EtkinlikAjandasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD80B3E52E79BC5200F844FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AD80B3EC2E79BC5200F844FB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AD80B3FC2E79BC5300F844FB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AD80B3EC2E79BC5200F844FB;
+					};
+					AD80B4062E79BC5300F844FB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AD80B3EC2E79BC5200F844FB;
+					};
+				};
+			};
+			buildConfigurationList = AD80B3E82E79BC5200F844FB /* Build configuration list for PBXProject "EtkinlikAjandasi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD80B3E42E79BC5200F844FB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD80B3EE2E79BC5200F844FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD80B3EC2E79BC5200F844FB /* EtkinlikAjandasi */,
+				AD80B3FC2E79BC5300F844FB /* EtkinlikAjandasiTests */,
+				AD80B4062E79BC5300F844FB /* EtkinlikAjandasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD80B3EB2E79BC5200F844FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80B3FB2E79BC5300F844FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80B4052E79BC5300F844FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD80B3E92E79BC5200F844FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80B3F92E79BC5300F844FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD80B4032E79BC5300F844FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD80B3FF2E79BC5300F844FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD80B3EC2E79BC5200F844FB /* EtkinlikAjandasi */;
+			targetProxy = AD80B3FE2E79BC5300F844FB /* PBXContainerItemProxy */;
+		};
+		AD80B4092E79BC5300F844FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD80B3EC2E79BC5200F844FB /* EtkinlikAjandasi */;
+			targetProxy = AD80B4082E79BC5300F844FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD80B40F2E79BC5300F844FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD80B4102E79BC5300F844FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD80B4122E79BC5300F844FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EtkinlikAjandasi/Preview Content\"";
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.EtkinlikAjandasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD80B4132E79BC5300F844FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EtkinlikAjandasi/Preview Content\"";
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.EtkinlikAjandasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD80B4152E79BC5300F844FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.EtkinlikAjandasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EtkinlikAjandasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EtkinlikAjandasi";
+			};
+			name = Debug;
+		};
+		AD80B4162E79BC5300F844FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.EtkinlikAjandasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EtkinlikAjandasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EtkinlikAjandasi";
+			};
+			name = Release;
+		};
+		AD80B4182E79BC5300F844FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.EtkinlikAjandasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EtkinlikAjandasi;
+			};
+			name = Debug;
+		};
+		AD80B4192E79BC5300F844FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPAZ3UN7PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardacakmak.EtkinlikAjandasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EtkinlikAjandasi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD80B3E82E79BC5200F844FB /* Build configuration list for PBXProject "EtkinlikAjandasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD80B40F2E79BC5300F844FB /* Debug */,
+				AD80B4102E79BC5300F844FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD80B4112E79BC5300F844FB /* Build configuration list for PBXNativeTarget "EtkinlikAjandasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD80B4122E79BC5300F844FB /* Debug */,
+				AD80B4132E79BC5300F844FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD80B4142E79BC5300F844FB /* Build configuration list for PBXNativeTarget "EtkinlikAjandasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD80B4152E79BC5300F844FB /* Debug */,
+				AD80B4162E79BC5300F844FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD80B4172E79BC5300F844FB /* Build configuration list for PBXNativeTarget "EtkinlikAjandasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD80B4182E79BC5300F844FB /* Debug */,
+				AD80B4192E79BC5300F844FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD80B3E52E79BC5200F844FB /* Project object */;
+}
